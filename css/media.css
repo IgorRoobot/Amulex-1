@@ -1,0 +1,1152 @@
+
+/* Screen diference */
+
+/* hight screen */
+@media screen and (max-width:2561px) and (min-width:1441px){
+    #advantages>p:first-child::before {
+        content: '';
+        position: absolute;
+        width: 15%;
+        z-index: -1;
+        height: 100%;
+        left: 4%;
+        border: 6px solid rgba(119, 115, 115, 0.37);
+    }
+    .out-tarif::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 18%;
+        left: 5%;
+        z-index: -1;
+        height: 120%;
+    }
+    .qickStart::before {
+        content: '';
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 37%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        left: 10%;
+    }
+    .leftAdvantages img {
+        position: absolute;
+        left: 20px;
+        top: 211px;
+        width: 600px;
+        height: 600px;
+        left: 40%;
+        top: 76px;
+    }
+}
+
+
+/* retina-screen */
+@media screen and (max-width:1441px){
+    
+}
+
+@media screen and (max-width:1025px){
+    #advantages>p:first-child::before {
+        content: '';
+        position: absolute;
+        width: 76%;
+        z-index: -1;
+        height: 100%;
+        left: 24%;
+        border: 6px solid rgba(119, 115, 115, 0.37);
+    }
+    #advantages {
+        padding: 30px 20px;
+    }
+    .leftAdvantages {
+        margin-left: 0;
+        width: 100%;
+        height: 300px;
+        background: #2b2c34;
+        position: relative;
+        border: 0;
+    }
+    .leftAdvantages img {
+        position: absolute;
+        left: 100px;
+        top: 34px;
+        width: 300px;
+        height: auto;
+    }
+    #advantages>p:first-child {
+        font-family: PNBlack;
+        font-size: 50px;
+        margin-bottom: 30px;
+        margin-top: 125px;
+        position: relative;
+        border: 0;
+    }
+    .rightAdvantages {
+        padding-left: 0;
+        width: 100%;
+        height: auto;
+        margin-top: 46px;
+        text-align: center;
+    }
+    .countAdvantages {
+        margin: 20px 0 0 0;
+        font-family: PNBlack;
+        color: #b9b9b9;
+        font-size: 14pt;
+        text-align: center;
+    }
+    .out-tarif {
+        font-family: PNBlack;
+        font-size: 50px;
+        margin-bottom: 60px;
+        position: relative;
+        border: 0;
+        z-index: 999;
+    }
+    #price {
+        padding: 30px 20px;
+        height: auto;
+        background: #f9f9f9;
+        margin-top: 30px;
+        margin-bottom: 0;
+        z-index: 7;
+    }
+    .out-tarif::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 61%;
+        left: 37%;
+        z-index: -1;
+        height: 120%;
+    }
+    #price>div.d-flex{
+        flex-direction: column;
+    }
+    .priceBlocks {
+        width: 100%;
+        height: 100%;
+        background: white;
+        box-shadow: 0px 0px 62px -24px black;
+        margin-right: 0;
+        padding: 65px 48px;
+        margin-top: 30px;
+    }
+    #advantages>div.d-flex{
+        flex-direction: column;
+    }
+    .standart::before{
+        content:none;
+    }
+    .leftAdvantages::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 100%;
+        height: 100%;
+        top: 10%;
+        left: 1%;
+        z-index: -1;
+    }
+    .feedback {
+        width: 94.36%;
+        height: 455px;
+        margin-top: 60px;
+        background: rgba(255,255,255,0.9);
+        padding: 60px 30px;
+    }
+    #footer{
+        flex-direction: column-reverse;
+    }
+    .rightFooter {
+        width: 100%;
+        height: 100%;
+        padding: 30px 20px;
+    }
+    .questions {
+        font-family: PNBlack;
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    .rightFooter p:nth-child(2) {
+        font-family: PNR;
+        font-size: 15px;
+        margin-bottom: 31px;
+    }
+    .leftFooter .contacts {
+        width: 100%;
+        height: 309px;
+        position: relative;
+        bottom: 0;
+        background: #303030;
+        z-index: 999;
+        left: 0;
+        padding: 50px;
+        color: white;
+    }
+    .leftFooter {
+        width: 100%;
+        height: 685px;
+        position: relative;
+    }
+}
+
+/* tablet */
+@media screen and (max-width:769px){
+    #header{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .leftHeader {
+        padding-left: 10.2%;
+        padding: 30px 20px;
+        width: 100%;
+        background: #f9f9f9;
+    }
+    .leftHeader h1 {
+        position: relative;
+        z-index: 999;
+        width: inherit;
+        font-size: 35pt;
+        margin-top: 40px;
+        line-height: 59pt;
+        font-family: PNBlack;
+    }
+    .leftHeader p:first-of-type {
+        margin-top: 20px;
+        color: #808080;
+        font-size: 18px;
+        font-family: PNR;
+    }
+    .leftHeader button {
+        height: 70px;
+        width: 250px;
+        margin-top: 30px;
+        background: transparent;
+        border: 1px solid #19937a;
+        cursor: pointer;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: PNExb;
+    }
+    .leftHeader p:last-child {
+        margin-top: 42px;
+        font-family: PNBlack;
+        margin-bottom: 0;
+        font-size: 14pt;
+        color: #b9b9b9;
+    }
+    .rightHeader {
+        z-index: 1;
+        position: relative;
+        height: inherit;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 55% 59%;
+    }
+    .rightHeader ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rightHeader a>li, .rightHeader li.tel {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        margin-left: 35px;
+        line-height: 36px;
+        font-family: PNExb;
+        text-decoration: underline;
+    }
+    #about {
+        padding-top: 40px;
+    }
+    .about {
+        padding: 30px 20px;
+    }
+    .mainAbout{
+        flex-direction: column;
+    }
+    .leftAbout {
+        width: 46%;
+        padding-top: 165px;
+        padding-right: 8%;
+    }
+    .rightAbout {
+        width: 100%;
+        height: auto;
+        border: 0;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .count{
+        text-align: center;
+    }
+    .rightAbout::before {
+        content: '';
+        border: 4px solid lightgray;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: -4%;
+        z-index: -1;
+        top: 4%;
+    }
+    #form {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 1%;
+        margin-top: 27px;
+        flex-direction: column-reverse;
+    }
+    .rightForm {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        z-index: 10;
+    }
+    .rightForm p:first-of-type {
+        font-size: 43px;
+        font-family: PNBlack;
+        margin-top: 12%;
+        margin-bottom: 0;
+        border: 0;
+        position: relative;
+        z-index: 999;
+    }
+    .rightForm p:first-of-type::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(177, 165, 165, 0.4);
+        width: 82%;
+        height: 140%;
+        left: 17%;
+        top: -47%;
+        z-index: 100;
+    }
+    #contactForm {
+        width: 100%;
+        margin-left: 0;
+        padding: 50px 30px 0 30px;
+    }
+    .leftForm {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .countForm {
+        position: absolute;
+        left: 7.2%;
+        bottom: 10px;
+        margin: 0;
+        font-family: PNBlack;
+        color: #b9b9b9;
+        font-size: 14pt;
+    }
+    #advantages>p:first-child::before {
+        content: '';
+        position: absolute;
+        width: 76%;
+        z-index: -1;
+        height: 100%;
+        left: 24%;
+        border: 6px solid rgba(119, 115, 115, 0.37);
+    }
+    #advantages {
+        padding: 30px 20px;
+    }
+    .leftAdvantages {
+        margin-left: 0;
+        width: 100%;
+        height: 300px;
+        background: #2b2c34;
+        position: relative;
+        border: 0;
+    }
+    .leftAdvantages img {
+        position: absolute;
+        left: 100px;
+        top: 34px;
+        width: 300px;
+        height: auto;
+    }
+    #advantages>p:first-child {
+        font-family: PNBlack;
+        font-size: 50px;
+        margin-bottom: 30px;
+        margin-top: 125px;
+        position: relative;
+        border: 0;
+    }
+    .rightAdvantages {
+        padding-left: 0;
+        width: 100%;
+        height: auto;
+        margin-top: 46px;
+        text-align: center;
+    }
+    .countAdvantages {
+        margin: 20px 0 0 0;
+        font-family: PNBlack;
+        color: #b9b9b9;
+        font-size: 14pt;
+        text-align: center;
+    }
+    .out-tarif {
+        font-family: PNBlack;
+        font-size: 50px;
+        margin-bottom: 60px;
+        position: relative;
+        border: 0;
+        z-index: 999;
+    }
+    #price {
+        padding: 30px 20px;
+        height: auto;
+        background: #f9f9f9;
+        margin-top: 30px;
+        margin-bottom: 0;
+        z-index: 7;
+    }
+    .out-tarif::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 61%;
+        left: 37%;
+        z-index: -1;
+        height: 120%;
+    }
+    #price>div.d-flex{
+        flex-direction: column;
+    }
+    .priceBlocks {
+        width: 100%;
+        height: 100%;
+        background: white;
+        box-shadow: 0px 0px 62px -24px black;
+        margin-right: 0;
+        padding: 65px 48px;
+        margin-top: 30px;
+    }
+    #advantages>div.d-flex{
+        flex-direction: column;
+    }
+    .standart::before{
+        content:none;
+    }
+    .leftAdvantages::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 100%;
+        height: 100%;
+        top: 10%;
+        left: 3%;
+        z-index: -1;
+    }
+    .Faded{
+        display: none;
+    }
+    #steps-comments {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        padding: 30px 20px;
+    }
+    #steps-comments div.d-flex{
+        flex-direction: column;
+    }
+    .qickStart::before {
+        content: '';
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 58%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        left: 26%;
+    }
+    .leftSteps {
+        width: 100%;
+    }
+    .timeline ul li {
+        list-style-type: none;
+        position: relative;
+        width: 2px;
+        margin: 0 0 0 210px;
+        background: rgba(0,0,0,0.3);
+    }
+    .timeline ul li div {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding: 30px;
+    }
+    .timeline p {
+        font-family: PNR;
+        font-size: 16px;
+        color: white;
+        width: 100px;
+    }
+    .rightSteps {
+        width: 100%;
+    }
+    .feedback {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        background: rgba(255,255,255,0.9);
+        padding: 60px 30px;
+    }
+    #footer{
+        flex-direction: column-reverse;
+    }
+    .rightFooter {
+        width: 100%;
+        height: 100%;
+        padding: 30px 20px;
+    }
+    .questions {
+        font-family: PNBlack;
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    .rightFooter p:nth-child(2) {
+        font-family: PNR;
+        font-size: 15px;
+        margin-bottom: 31px;
+    }
+    .leftFooter .contacts {
+        width: 100%;
+        height: 309px;
+        position: relative;
+        bottom: 0;
+        background: #303030;
+        z-index: 999;
+        left: 0;
+        padding: 50px;
+        color: white;
+    }
+    .leftFooter {
+        width: 100%;
+        height: 685px;
+        position: relative;
+    }
+    .request{
+        left:0;
+    }
+    feedback{
+        left:0;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:426px){
+    #header{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .leftHeader {
+        padding-left: 10.2%;
+        padding: 30px 20px;
+        width: 100%;
+        background: #f9f9f9;
+    }
+    .leftHeader h1 {
+        position: relative;
+        z-index: 999;
+        width: inherit;
+        font-size: 35pt;
+        margin-top: 40px;
+        line-height: 59pt;
+        font-family: PNBlack;
+    }
+    .leftHeader p:first-of-type {
+        margin-top: 20px;
+        color: #808080;
+        font-size: 18px;
+        font-family: PNR;
+    }
+    .leftHeader button {
+        height: 70px;
+        width: 250px;
+        margin-top: 30px;
+        background: transparent;
+        border: 1px solid #19937a;
+        cursor: pointer;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: PNExb;
+    }
+    .leftHeader p:last-child {
+        margin-top: 42px;
+        font-family: PNBlack;
+        margin-bottom: 0;
+        font-size: 14pt;
+        color: #b9b9b9;
+    }
+    .rightHeader {
+        z-index: 1;
+        position: relative;
+        height: inherit;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 55% 59%;
+    }
+    .rightHeader ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rightHeader a>li, .rightHeader li.tel {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        margin-left: 35px;
+        line-height: 36px;
+        font-family: PNExb;
+        text-decoration: underline;
+    }
+    #about {
+        padding-top: 40px;
+    }
+    .about {
+        padding: 30px 20px;
+    }
+    .mainAbout{
+        flex-direction: column;
+    }
+    .leftAbout {
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .rightAbout {
+        width: 100%;
+        height: auto;
+        border: 0;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .count{
+        text-align: center;
+    }
+    .rightAbout::before {
+        content: '';
+        border: 4px solid lightgray;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: -4%;
+        z-index: -1;
+        top: 4%;
+    }
+    #form {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 1%;
+        margin-top: 27px;
+        flex-direction: column-reverse;
+    }
+    .rightForm {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        z-index: 10;
+    }
+    .rightForm p:first-of-type {
+        font-size: 43px;
+        font-family: PNBlack;
+        margin-top: 12%;
+        margin-bottom: 0;
+        border: 0;
+        position: relative;
+        z-index: 999;
+    }
+    .rightForm p:first-of-type::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(177, 165, 165, 0.4);
+        width: 82%;
+        height: 140%;
+        left: 17%;
+        top: -47%;
+        z-index: 100;
+    }
+    #contactForm {
+        width: 100%;
+        margin-left: 0;
+        padding: 50px 30px 0 30px;
+    }
+    .leftForm {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.4);
+        position: relative;
+        padding-bottom: 40px;
+    }
+    .countForm {
+        position: absolute;
+        left: 7.2%;
+        bottom: 10px;
+        margin: 0;
+        font-family: PNBlack;
+        color: #b9b9b9;
+        font-size: 14pt;
+    }
+    #advantages>p:first-child::before {
+        content: '';
+        position: absolute;
+        width: 76%;
+        z-index: -1;
+        height: 100%;
+        left: 24%;
+        border: 6px solid rgba(119, 115, 115, 0.37);
+    }
+    #advantages {
+        padding: 30px 20px;
+    }
+    .leftAdvantages {
+        margin-left: 0;
+        width: 100%;
+        height: 300px;
+        background: #2b2c34;
+        position: relative;
+        border: 0;
+    }
+    .leftAdvantages img {
+        position: absolute;
+        left: 100px;
+        top: 34px;
+        width: 300px;
+        height: auto;
+    }
+    #advantages>p:first-child {
+        font-family: PNBlack;
+        font-size: 50px;
+        margin-bottom: 30px;
+        margin-top: 125px;
+        position: relative;
+        border: 0;
+    }
+    .rightAdvantages {
+        padding-left: 0;
+        width: 100%;
+        height: auto;
+        margin-top: 46px;
+        text-align: center;
+    }
+    .countAdvantages {
+        margin: 20px 0 0 0;
+        font-family: PNBlack;
+        color: #b9b9b9;
+        font-size: 14pt;
+        text-align: center;
+    }
+    .out-tarif {
+        font-family: PNBlack;
+        font-size: 50px;
+        margin-bottom: 60px;
+        position: relative;
+        border: 0;
+        z-index: 999;
+    }
+    #price {
+        padding: 30px 20px;
+        height: auto;
+        background: #f9f9f9;
+        margin-top: 30px;
+        margin-bottom: 0;
+        z-index: 7;
+    }
+    .out-tarif::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 61%;
+        left: 37%;
+        z-index: -1;
+        height: 120%;
+    }
+    #price>div.d-flex{
+        flex-direction: column;
+    }
+    .priceBlocks {
+        width: 100%;
+        height: 100%;
+        background: white;
+        box-shadow: 0px 0px 62px -24px black;
+        margin-right: 0;
+        padding: 65px 48px;
+        margin-top: 30px;
+    }
+    #advantages>div.d-flex{
+        flex-direction: column;
+    }
+    .standart::before{
+        content:none;
+    }
+    .leftAdvantages::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 100%;
+        height: 100%;
+        top: 10%;
+        left: 3%;
+        z-index: -1;
+    }
+    .Faded{
+        display: none;
+    }
+    #steps-comments {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        padding: 30px 20px;
+    }
+    #steps-comments div.d-flex{
+        flex-direction: column;
+    }
+    .qickStart::before {
+        content: '';
+        border: 6px solid rgba(211, 205, 205, 0.3);
+        width: 58%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        left: 26%;
+    }
+    .leftSteps {
+        width: 100%;
+    }
+    .timeline ul li {
+        list-style-type: none;
+        position: relative;
+        width: 2px;
+        margin: 0 0 0 210px;
+        background: rgba(0,0,0,0.3);
+    }
+    .timeline ul li div {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding: 30px;
+    }
+    .timeline p {
+        font-family: PNR;
+        font-size: 16px;
+        color: white;
+        width: 100px;
+    }
+    .rightSteps {
+        width: 100%;
+    }
+    .feedback {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        background: rgba(255,255,255,0.9);
+        padding: 60px 30px;
+    }
+    #footer{
+        flex-direction: column-reverse;
+    }
+    .rightFooter {
+        width: 100%;
+        height: 100%;
+        padding: 30px 20px;
+    }
+    .questions {
+        font-family: PNBlack;
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    .rightFooter p:nth-child(2) {
+        font-family: PNR;
+        font-size: 15px;
+        margin-bottom: 31px;
+    }
+    .leftFooter .contacts {
+        width: 100%;
+        height: 309px;
+        position: relative;
+        bottom: 0;
+        background: #303030;
+        z-index: 999;
+        left: 0;
+        padding: 50px;
+        color: white;
+    }
+    .leftFooter {
+        width: 100%;
+        height: 685px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:375px){
+    .rightForm p:first-of-type {
+        font-size: 39px;
+        font-family: PNBlack;
+        margin-top: 12%;
+        margin-bottom: 0;
+        border: 0;
+        position: relative;
+        z-index: 999;
+    }
+    .leftAdvantages {
+        margin-left: 0;
+        width: 100%;
+        height: 246px;
+        background: #2b2c34;
+        position: relative;
+        border: 0;
+    }
+    .leftAdvantages img {
+        position: absolute;
+        left: 100px;
+        top: 34px;
+        width: 248px;
+        height: auto;
+    }
+    .premium .grad {
+        height: 126%!important;
+        width: 126%!important;
+        left: -23px!important;
+        position: absolute;
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 43%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 43%,rgba(255,255,255,1) 100%);
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 43%,rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+    }
+    .premium img{
+        margin-top: 49px;
+    }
+    .timeline ul li {
+        list-style-type: none;
+        position: relative;
+        width: 2px;
+        margin: 0 0 0 184px;
+        background: rgba(0,0,0,0.3);
+    }
+    .timeline ul li:nth-child(odd) div {
+        left: -160px;
+    }
+    .timeline ul li {
+        list-style-type: none;
+        position: relative;
+        width: 2px;
+        margin: 0 0 0 129px;
+        background: rgba(0,0,0,0.3);
+    }
+    .request {
+        font-family: PNBlack;
+        font-size: 36px;
+        color: white;
+        position: relative;
+        border: 0;
+    }
+}
+
+@media screen and (max-width:320px){
+    .leftHeader h1 {
+        position: relative;
+        z-index: 999;
+        width: inherit;
+        font-size: 27pt;
+        margin-top: 40px;
+        line-height: 59pt;
+        font-family: PNBlack;
+    }
+    .rightForm p:first-of-type {
+        font-size: 32px;
+        font-family: PNBlack;
+        margin-top: 12%;
+        margin-bottom: 0;
+        border: 0;
+        position: relative;
+        z-index: 999;
+    }
+    .leftAdvantages {
+        margin-left: 0;
+        width: 100%;
+        height: 198px;
+        background: #2b2c34;
+        position: relative;
+        border: 0;
+    }
+    .leftAdvantages img {
+        position: absolute;
+        left: 100px;
+        top: 34px;
+        width: 192px;
+        height: auto;
+    }
+    #advantages>p:first-child {
+        font-family: PNBlack;
+        font-size: 36px;
+        margin-bottom: 30px;
+        margin-top: 125px;
+        position: relative;
+        border: 0;
+    }
+    .grad {
+        height: 112%!important;
+        width: 126%!important;
+        left: -23px!important;
+        position: absolute;
+        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 43%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 43%,rgba(255,255,255,1) 100%);
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 43%,rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+    }
+    .priceBlocks img {
+        cursor: pointer;
+        margin-top: 25px;
+    }
+    .premium ul {
+        padding: 0;
+        height: 192px;
+    }
+    .out-tarif {
+        font-family: PNBlack;
+        font-size: 36px;
+        margin-bottom: 60px;
+        position: relative;
+        border: 0;
+        z-index: 999;
+    }
+    #formFooter button {
+        height: 70px;
+        width: 284px;
+        padding-left: 30px;
+        background: transparent;
+        border: 1px solid #808080;
+        font-family: PNB;
+        outline: none;
+        cursor: pointer;
+    }
+}
+                                    
+@media screen and (max-width:2000px) and (min-width:1900px){
+    .leftAdvantages img {
+        position: absolute;
+        left: 20px;
+        top: 211px;
+        width: 600px;
+        height: 600px;
+        left: 20%;
+        top: 76px;
+    }
+    .rightHeader ul {
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+    .leftHeader h1 {
+        position: relative;
+        z-index: 999;
+        width: 800px;
+        font-size: 50px;
+        margin-top: 200px;
+        line-height: 59pt;
+        letter-spacing: 0.025em;
+        font-family: PNBlack;
+    }
+    .leftHeader p:first-of-type {
+        margin-top: 80px;
+        color: #808080;
+        font-size: 24px;
+        font-family: PNR;
+    }
+    .leftHeader button{
+        font-family: PNB;
+    }
+    .leftHeader p:last-child {
+        margin-top: 154px;
+        font-family: PNBlack;
+        margin-bottom: 0;
+        font-size: 14pt;
+        padding-bottom: 30px;
+        letter-spacing: 0.07em;
+        color: #b9b9b9;
+    }
+    #about h1{
+        line-height: 75px;
+    }
+    .leftAbout {
+        width: 50%;
+        padding-top: 165px;
+        padding-right: 14%;
+    }
+    .rightAbout::before {
+        content: '';
+        border: 6px solid rgba(0,0,0,0.04);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: -23%;
+        z-index: -1;
+        top: 11%;
+    }
+    .count {
+        font-family: PNBlack;
+        font-size: 14pt;
+        margin-left: 10.2%;
+        margin-top: 110px;
+        margin-bottom: 0;
+        color: #b9b9b9;
+    }
+    .rightAbout {
+        width: 54%;
+        height: 480px;
+        border: 0;
+        position: relative;
+    }
+    .rightForm p:first-of-type::before {
+        content: '';
+        position: absolute;
+        border: 6px solid rgba(177, 165, 165, 0.4);
+        width: 27%;
+        height: 140%;
+        left: -10%;
+        top: -20%;
+        z-index: 100;
+    }
+    #advantages>p:first-child::before {
+        content: '';
+        position: absolute;
+        width: 15%;
+        z-index: -1;
+        height: 100%;
+        left: 9%;
+        border: 6px solid rgba(119, 115, 115, 0.09);
+    }
+    .questions {
+        font-family: PNBlack;
+        font-size: 50px;
+        margin-bottom: 89px;
+        letter-spacing: 0.03em;
+    }
+    .rightFooter p:nth-child(2) {
+        font-family: PNR;
+        font-size: 20px;
+        margin-bottom: 75px;
+        color: #808080;
+    }
+    .leftFooter {
+        width: 56.25%;
+        height: 718px;
+        position: relative;
+    }
+}
